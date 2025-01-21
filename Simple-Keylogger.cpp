@@ -10,7 +10,7 @@
 std::mutex logMutex;
 
 // Kunci untuk enkripsi XOR
-const std::string ENCRYPTION_KEY = "simplekey";
+const std::string ENCRYPTION_KEY = "examplekey";
 
 // Fungsi untuk mengenkripsi atau mendekripsi teks menggunakan XOR
 std::string xorEncryptDecrypt(const std::string& input, const std::string& key) {
